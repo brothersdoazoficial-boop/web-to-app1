@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.webtoapp'
+    namespace 'com.brothers.app'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.webtoapp"
+        applicationId "com.brothers.app"
         minSdk 21
         targetSdk 34
         versionCode 1
@@ -24,6 +24,6 @@ android {
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.9.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.core:core-ktx:1.9.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.11.0'
 }
